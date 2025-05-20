@@ -1,0 +1,6 @@
+framework module miniapp_uikit {
+  umbrella header "miniapp_uikit.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,368 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "miniapp_uikit",
+    "printedName": "miniapp_uikit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniApp",
+        "printedName": "MiniApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13miniapp_uikit7MiniAppP4nameSSvp",
+            "mangledName": "$s13miniapp_uikit7MiniAppP4nameSSvp",
+            "moduleName": "miniapp_uikit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13miniapp_uikit7MiniAppP4nameSSvg",
+                "mangledName": "$s13miniapp_uikit7MiniAppP4nameSSvg",
+                "moduleName": "miniapp_uikit",
+                "genericSig": "<τ_0_0 where τ_0_0 : miniapp_uikit.MiniApp>",
+                "sugared_genericSig": "<Self where Self : miniapp_uikit.MiniApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13miniapp_uikit7MiniAppP14viewControllerSo06UIViewF0Cvp",
+            "mangledName": "$s13miniapp_uikit7MiniAppP14viewControllerSo06UIViewF0Cvp",
+            "moduleName": "miniapp_uikit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13miniapp_uikit7MiniAppP14viewControllerSo06UIViewF0Cvg",
+                "mangledName": "$s13miniapp_uikit7MiniAppP14viewControllerSo06UIViewF0Cvg",
+                "moduleName": "miniapp_uikit",
+                "genericSig": "<τ_0_0 where τ_0_0 : miniapp_uikit.MiniApp>",
+                "sugared_genericSig": "<Self where Self : miniapp_uikit.MiniApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13miniapp_uikit7MiniAppP",
+        "mangledName": "$s13miniapp_uikit7MiniAppP",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavigationProtocol",
+        "printedName": "NavigationProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(rootViewController:window:miniApps:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any miniapp_uikit.MiniApp]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniApp",
+                    "printedName": "any miniapp_uikit.MiniApp",
+                    "usr": "s:13miniapp_uikit7MiniAppP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13miniapp_uikit18NavigationProtocolP6config18rootViewController6window8miniAppsySo06UIViewH0C_So8UIWindowCSayAA7MiniApp_pGtF",
+            "mangledName": "$s13miniapp_uikit18NavigationProtocolP6config18rootViewController6window8miniAppsySo06UIViewH0C_So8UIWindowCSayAA7MiniApp_pGtF",
+            "moduleName": "miniapp_uikit",
+            "genericSig": "<τ_0_0 where τ_0_0 : miniapp_uikit.NavigationProtocol>",
+            "sugared_genericSig": "<Self where Self : miniapp_uikit.NavigationProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13miniapp_uikit18NavigationProtocolP",
+        "mangledName": "$s13miniapp_uikit18NavigationProtocolP",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiniAppUIKit",
+        "printedName": "MiniAppUIKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Navigation",
+            "printedName": "Navigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationProtocol",
+                "printedName": "any miniapp_uikit.NavigationProtocol",
+                "usr": "s:13miniapp_uikit18NavigationProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13miniapp_uikit12MiniAppUIKitO10NavigationAA0F8Protocol_pvpZ",
+            "mangledName": "$s13miniapp_uikit12MiniAppUIKitO10NavigationAA0F8Protocol_pvpZ",
+            "moduleName": "miniapp_uikit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavigationProtocol",
+                    "printedName": "any miniapp_uikit.NavigationProtocol",
+                    "usr": "s:13miniapp_uikit18NavigationProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13miniapp_uikit12MiniAppUIKitO10NavigationAA0F8Protocol_pvgZ",
+                "mangledName": "$s13miniapp_uikit12MiniAppUIKitO10NavigationAA0F8Protocol_pvgZ",
+                "moduleName": "miniapp_uikit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13miniapp_uikit12MiniAppUIKitO",
+        "mangledName": "$s13miniapp_uikit12MiniAppUIKitO",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit"
+      },
+      {
+        "kind": "Import",
+        "name": "miniapp_core",
+        "printedName": "miniapp_core",
+        "declKind": "Import",
+        "moduleName": "miniapp_uikit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/stanydsouza\/Work\/Bluebik\/core-swift\/miniapp-uikit\/miniapp-uikit\/source\/navigation\/NavigationUIKit.swift",
+      "kind": "Dictionary",
+      "offset": 458,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
